@@ -73,8 +73,8 @@ nav .header_right .nav-heading {
 nav .header_right .algos {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (16.66667%)[6];
-      grid-template-columns: repeat(6, 16.66667%);
+  -ms-grid-columns: (16.66667%);
+      grid-template-columns: repeat(8, 16.66667%);
   place-content: center;
   padding: 2% 0%;
 }
@@ -170,6 +170,7 @@ section #Info_Cont2 h3 {
   display: none;
 }
 
+.algos
 /*
 @media (max-width: 480px)//Mobiles
 {
